@@ -3,12 +3,12 @@
 }
 
 .jumbotron {
-  background-color: #f2eeec;
+  background-color: #fff8e5;
 }
 
 .paddingupdown {
-  padding-top: 10rem;
-  padding-bottom: 10rem;
+  padding-top: 8rem;
+  padding-bottom: 12rem;
 }
 /* width */
 ::-webkit-scrollbar {
