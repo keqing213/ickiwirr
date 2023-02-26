@@ -1,194 +1,231 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>icikiwirr</title>
-  <!-- Link to Bootstrap CSS file -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-  <!-- Link to custom CSS file-->
-  <link rel="stylesheet" href="css/styles.css">
-  <!-- Link to Bootstrap icon file-->
-  <link rel=”stylesheet” href=”https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css” />
-  <!-- Link to favicon -->
-  <link rel="icon" type="image/x-icon" href="/image/favicon.ico">
-  </style>
-</head>
-<body>
-  <!-- Navbar -->
-<nav class="navbar navbar-expand-lg navbar-dark colorone shadow-sm" style="position: fixed; z-index: 10000; width: 103%;">
-  <div class="container">
-    <a class="navbar-brand" href="#">Icikiwirr Aselole</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav ms-auto">
-        <li class="nav-item hover-underline-animation">
-          <a class="nav-link active" aria-current="page" href="#Home">Home</a>
-        </li>
-        <li class="nav-item hover-underline-animation">
-          <a class="nav-link " href="#About">About</a>
-        </li>
-        <li class="nav-item hover-underline-animation">
-          <a class="nav-link" href="#Project">Project</a>
-        </li>
-        <li class="nav-item hover-underline-animation">
-          <a class="nav-link" href="#Skills">Skills</a>
-        </li>
-        <li class="nav-item hover-underline-animation">
-          <a class="nav-link" href="#Contact">Contact</a>
-        </li>
-      </ul>
-    </div>
-  </div>
-</nav>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
+    <title>Icikiwir</title>
+    <link rel="icon" type="image/x-icon" href="/assets/img/fav.png" />
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat&amp;display=swap" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="assets/css/Navbar-Centered-Links-icons.css" />
+    <link rel="stylesheet" href="assets/css/Projects-Grid-images.css" />
+  </head>
 
-<!-- Hero -->
-<section id="Home">
-  <div class="jumbotron text-center px-4 paddingupdown" style="width: 103%;">
-  <img class="rounded-circle img-thumbnail shadow-sm" src="image/me.jpg" alt="me" width="180"/>
-  <h1 class="display-4 fw-bold pt-2">Evan Aryanto</h1>
-  <p class="lead">A recent graduate of vocational high school with a major in computer and network engineering.</p>
-  <p>Take a look at my portfolio and see for yourself the skills and experience</p>
-</div>
-</section>
-
-<!-- About -->
-<section id="About" class="paddingupdown">
-  <div class="container" >
-      <div class="row">
-        <h2 class="text-center mb-5">About Me</h2>
-      </div>
-  </div>
- <div class="container">
-   <div class="row justify-content-center text-center px-4">
-     <div class="col-md-4 m-4">
-       <p>Hi there! My name is Evan and I recently graduated from vocational high school with a major in computer and network engineering. Throughout my time in this program, I learned a wide variety of skills related to computer hardware and software, network systems, and cybersecurity.</p>
-     </div>
-     <div class="col-md-4 m-4">
-       <p>As a computer and network engineering graduate from vocational high school, I possess the skills and knowledge necessary to design, build, and maintain computer networks and systems for businesses and organizations. My understanding of network topologies, protocols.</p>
-     </div>
-   </div>
- </div>
-</section>
-
-<!-- Project -->
-<section id="Project" class="paddingupdown">
-   <div class="container" >
-      <div class="row">
-        <h2 class="text-center mb-1">My Project</h2>
-      </div>
-  </div>
-      <div class="row justify-content-center m-3">
-        <div class="col-md-3 m-2">
-          <div class="card">
-            <img class="card-img-top" src="/image/net.jpg" alt="Card image cap">
-            <div class="card-body">
-              <h5 class="card-title">Network Integration</h5>
-              <p class="card-text">Create a reliable and secure local network for an office, ensuring efficient communication and data sharing among devices.</p>
-            </div>
-          </div>
+  <body>
+    <script src="assets/js/costom.js"></script>
+    <!-- navbar s -->
+    <nav class="navbar navbar-light navbar-expand-md d-flex" style="background: #ffd749; position: fixed; z-index: 10000; width: 100%; filter: blur(0px)">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#" style="font-weight: bold; font-family: Montserrat, sans-serif">My Portofolio</a
+        ><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-1" style="border-radius: 3px"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+        <div class="collapse navbar-collapse justify-content-end" id="navcol-1">
+          <ul class="navbar-nav">
+            <li class="nav-item"><a class="nav-link active" href="#home" style="font-family: Montserrat, sans-serif">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#about" style="font-family: Montserrat, sans-serif">About Me</a></li>
+            <li class="nav-item"><a class="nav-link" href="#projects" style="font-family: Montserrat, sans-serif">Projects</a></li>
+            <li class="nav-item"><a class="nav-link" href="#contact" style="font-family: Montserrat, sans-serif">Contact</a></li>
+          </ul>
         </div>
-        <div class="col-md-3 m-2">
-          <div class="card">
-            <img class="card-img-top" src="/image/server.jpg" alt="Card image cap">
-            <div class="card-body">
-              <h5 class="card-title">Office Server</h5>
-              <p class="card-text">Set up and configure a server for an office, including hardware selection, software installation, and network integration.</p>
-            </div>
+      </div>
+    </nav>
+    <!-- navbar e -->
+
+    <!-- home s -->
+    <section id="home" style="background: linear-gradient(#fff8d1 91%, white), #ffe9d9; width: 100%; filter: blur(0px); padding-bottom: 5rem">
+      <div class="container col-xxl-8 px-4 py-5">
+        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+          <div class="col-10 col-sm-8 col-lg-6 align-items-lg-center">
+            <img class="img-fluid d-block mx-lg-auto" src="assets/img/Untitled-1.png" width="700" height="500" loading="lazy" />
           </div>
-        </div>
-        <div class="col-md-3 m-2">
-          <div class="card">
-            <img class="card-img-top" src="image/lr.jpeg" alt="Card image cap">
-            <div class="card-body">
-              <h5 class="card-title">Card Title</h5>
-              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus velit perspiciatis odio laudantium voluptas iure odit voluptatem dicta quod rerum.</p>
-            </div>
+          <div class="col-lg-6">
+            <h1 class="display-5 fw-bold lh-1 mb-3">Hello, I'm <br />Evan Aryanto</h1>
+            <p class="lead">A recent graduate of vocational high school with a major in computer and network engineering.</p>
           </div>
         </div>
       </div>
-    </div>    
-</section>
-
-<!-- Skills -->
-<section id="Skills" class="paddingupdown">
-  <div class="container text-center">
-    <div class="row">
-      <h2 class="mb-5">My Skills</h2>
-    </div>
-    <div class="row justify-content-center">
-      <div class="col-md-3 m-2">
-        <img src="image/eth.svg" alt="net" width="60">
-        <h5 class="">Networking</h5>
-        <p>Proficient in configuring, troubleshooting, and securing network systems. Experienced in LAN, WAN, and VPN.</p>
-      </div>
-      <div class="col-md-3 m-2">
-        <img src="image/offi.svg" alt="net" width="60">
-        <h5 class="">Microsoft Office</h5>
-        <p>Skilled in Microsoft Office Suite, including Word, Excel, and PowerPoint. Efficient and accurate work.</p>
-      </div>
-      <div class="col-md-3 m-2">
-        <img src="image/ps.svg" alt="net" width="60">
-        <h5 class="">Adobe Photoshop</h5>
-        <p>Proficient in Adobe Photoshop for photo editing and graphic design. Attention to detail and creativity.</p>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- Contact -->
-<section id="Contact" class="paddingupdown">
-  <div class="row text-center mb-4">
-    <h2>Contact Me</h2>
-    <p>Ini fungsi ya kirim apa kek gtu</p>
-  </div>
-  <div class="row justify-content-center m-4">
-    <div class="col-md-3">
-      <form>
-        <div class="mb-3">
-          <label for="Name" class="form-label">Nama Lo</label>
-          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="name">
-        </div>
-        <div class="mb-3">
-          <label for="exampleInputEmail1" class="form-label">Email Lo</label>
-          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-        </div>
-        <div class="mb-3">
-          <label for="exampleFormControlTextarea1" class="form-label">Pesan nya apaan</label>
-          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-        </div>
-        <button type="submit" class="btn btn-outline-light mb-4 " style="background-color: #ffae00cb;">Kirim</button>
-      </form>
-    </div>
-  </div>
-</section>
-
-<!-- Footer -->
-<footer class="text-center text-white colorone" style="width: 103%;">
-  <div class="container p-4">
-    <section class="mb-4">
-      <p>
-        "I am not in danger, I am the danger." <br>
-        - Walter White - 
-      </p>
     </section>
-  </div>
-  <!-- Copyright -->
-  <div class="text-center p-3" style="background-color: rgba(238, 255, 0, 0.2);">
-    © 2020 Copyright:
-    <a class="text-white" href="https://aselose.com/">aselole.com</a>
-  </div>
-  <!-- Copyright -->
-</footer>
-<!-- Footer -->
+    <!-- home e -->
 
+    <!-- about s -->
+    <section id="about" style="padding-bottom: 5rem; padding-top: 5rem">
+      <div class="container py-4 py-xl-5">
+        <div class="row mb-5">
+          <div class="col-md-8 col-xl-6 text-center mx-auto">
+            <h2>About Me</h2>
+          </div>
+        </div>
+        <div class="row gy-4 row-cols-1 row-cols-md-2 row-cols-xl-3 justify-content-center">
+          <div class="col">
+            <div class="text-center d-flex flex-column align-items-center align-items-xl-center">
+              <div class="px-3">
+                <p>
+                  Hi there! My name is Evan and I recently graduated from vocational high school with a major in computer and network engineering. Throughout my time in this program, I learned a wide variety of skills related to computer
+                  hardware and software, network systems, and cybersecurity.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="text-center d-flex flex-column align-items-center align-items-xl-center">
+              <div class="px-3">
+                <p>
+                  As a computer and network engineering graduate from vocational high school, I possess the skills and knowledge necessary to design, build, and maintain computer networks and systems for businesses and organizations. My
+                  understanding of network topologies, protocols.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- about e -->
 
-  <!-- Link to Bootstrap JavaScript file -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
-  
-  <!-- Link to custom JavaScript file -->
-  <script src="js/custom.js"></script>
-</body>
+    <!-- projects s -->
+    <section id="projects" style="padding-top: 5rem; padding-bottom: 5rem">
+      <div class="container py-4 py-xl-5">
+        <div class="row mb-5">
+          <div class="col-md-8 col-xl-6 text-center mx-auto">
+            <h2>Projects</h2>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-md-4">
+            <div>
+              <img class="rounded img-fluid d-block w-100 fit-cover" style="height: 200px" src="https://cdn.bootstrapstudio.io/placeholders/1400x800.png" />
+              <div class="py-4">
+                <h4>Network Integration</h4>
+                <p>Create a reliable and secure local network for an office, ensuring efficient communication and data sharing among devices.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div>
+              <img class="rounded img-fluid d-block w-100 fit-cover" style="height: 200px" src="https://cdn.bootstrapstudio.io/placeholders/1400x800.png" />
+              <div class="py-4">
+                <h4>Office Server</h4>
+                <p>Set up and configure a server for an office, including hardware selection, software installation, and network integration.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div>
+              <img class="rounded img-fluid d-block w-100 fit-cover" style="height: 200px" src="https://cdn.bootstrapstudio.io/placeholders/1400x800.png" />
+              <div class="py-4">
+                <h4>Lorem libero donec</h4>
+                <p>ini yang satu gua bingung mau ngasih apa yauda lorem lorem aja haha, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- projects e -->
+
+    <!-- contact s -->
+    <section id="contact" style="padding-top: 5rem; padding-bottom: 5rem">
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-md-8 col-xl-6 text-center mx-auto">
+            <h2>Contact us</h2>
+            <p>Ini fungsi ya, Jdi kirim apa kek gtu terserah</p>
+          </div>
+        </div>
+        <div class="row d-flex justify-content-center">
+          <div class="col-md-6 col-lg-4 col-xl-4">
+            <div class="d-flex flex-column justify-content-center align-items-start h-100">
+              <div class="d-flex align-items-center p-3">
+                <div class="bs-icon-md bs-icon-rounded bs-icon-primary d-flex flex-shrink-0 justify-content-center align-items-center d-inline-block bs-icon" style="background: rgb(255, 215, 73)">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-telephone">
+                    <path
+                      d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"
+                    ></path>
+                  </svg>
+                </div>
+                <div class="px-2">
+                  <h6 class="mb-0">Phone</h6>
+                  <p class="mb-0">+62-8543-5121-1231</p>
+                </div>
+              </div>
+              <div class="d-flex align-items-center p-3">
+                <div class="bs-icon-md bs-icon-rounded bs-icon-primary d-flex flex-shrink-0 justify-content-center align-items-center d-inline-block bs-icon" style="background: rgb(255, 215, 73)">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-envelope">
+                    <path
+                      fill-rule="evenodd"
+                      d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z"
+                    ></path>
+                  </svg>
+                </div>
+                <div class="px-2">
+                  <h6 class="mb-0">Email</h6>
+                  <p class="mb-0">suprabapak996@gmail.com</p>
+                </div>
+              </div>
+              <div class="d-flex align-items-center p-3">
+                <div class="bs-icon-md bs-icon-rounded bs-icon-primary d-flex flex-shrink-0 justify-content-center align-items-center d-inline-block bs-icon" style="background: rgb(255, 215, 73)">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-instagram">
+                    <path
+                      d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"
+                    ></path>
+                  </svg>
+                </div>
+                <div class="px-2">
+                  <h6 class="mb-0">Instagram</h6>
+                  <p class="mb-0">@e31f2x</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-5 col-xl-4">
+            <div>
+              <form class="p-3 p-xl-4" method="post">
+                <div class="mb-3"><input class="form-control" type="text" id="name-1" name="name" placeholder="Name" /></div>
+                <div class="mb-3"><input class="form-control" type="email" id="email-1" name="email" placeholder="Email" /></div>
+                <div class="mb-3"><textarea class="form-control" id="message-1" name="message" rows="6" placeholder="Message"></textarea></div>
+                <div><button class="btn btn-primary d-block w-100" type="submit" style="--bs-primary: #ffd749; --bs-primary-rgb: 255, 215, 73; background: rgb(255, 215, 73)">Send</button></div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- contact e -->
+
+    <!-- footer s -->
+    <footer class="text-center" style="background: #ffd749">
+      <div class="container text-muted py-4 py-lg-5">
+        <p>Dihargai lanjut, ga dihargai cabut.</p>
+        <ul class="list-inline">
+          <li class="list-inline-item me-4">
+            <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-facebook">
+              <path
+                d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"
+              ></path>
+            </svg>
+          </li>
+          <li class="list-inline-item me-4">
+            <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-twitter">
+              <path
+                d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"
+              ></path>
+            </svg>
+          </li>
+          <li class="list-inline-item">
+            <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-instagram">
+              <path
+                d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"
+              ></path>
+            </svg>
+          </li>
+        </ul>
+        <p class="mb-0">Copyright © 2023 Aselole</p>
+      </div>
+    </footer>
+    <!-- footer e -->
+
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+  </body>
 </html>
